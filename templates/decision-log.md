@@ -1,66 +1,122 @@
-# Decision Log
+# decision-log.md
 
-## What This File Is For
-
-How you make decisions, with real examples. This is the most underrated file in the portfolio. When an agent is helping you think through a new decision, knowing how you've decided things before is enormously valuable — it can match your reasoning style, surface the right kind of information, and avoid suggesting approaches that don't fit how your mind works.
+## How Jared Makes Decisions
 
 ---
 
-## Interview Protocol
+### Decision-Making Style
 
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
+**Big decisions:** Slow and analytical. Deliberately seeks multiple
+perspectives, tries to remove emotion from the process, and does
+meaningful research before landing. Has a natural instinct to zoom
+out and see the full picture before committing.
 
-**Instructions for the build partner:** You're helping the user create their decision log. The examples are the most important part — push for specifics on at least two real decisions. Abstract descriptions of decision-making style are less useful than concrete stories about actual decisions and how they were made.
+**Small decisions:** Has actively worked on this — increasingly trusting
+gut instinct and moving faster. Comfortable stepping up for group
+decisions; high EQ gives him good read on what others need.
 
-**Questions to ask:**
-
-1. How do you generally make decisions? Are you the type to analyze everything, go with your gut, talk it through with people, sleep on it?
-2. What information do you want before you make a call? What makes you feel ready to decide?
-3. Tell me about a significant decision you've made recently — could be work, could be personal. What was it and how did you think it through?
-4. Can you give me another example — ideally a different kind of decision?
-5. How do you handle situations where you don't have enough information but still need to decide?
-6. Is there a decision you're currently sitting with or working through?
-
-**When you have enough:** After 4-5 questions. The examples are the most important part — make sure you have specifics on at least two real decisions before drafting.
-
-**After drafting:** Present the draft. Ask the user if the decision examples accurately capture their reasoning process — not just the outcome, but how they actually thought through it.
+**General orientation:** Realist with an optimistic lean. Tends to
+believe things will work out, and extends genuine trust and good
+faith to people — sometimes before it's fully earned.
 
 ---
 
-## Output Structure
+### Decision Framework (How He Actually Thinks)
 
-```markdown
-# Decision Log
+1. **Gather perspectives** — talks to relevant people, seeks out
+   views that differ from his own instinct
+2. **Research** — looks for frameworks, precedents, or data to
+   inform the call
+3. **Zoom out** — asks what the decision looks like from 30,000 feet,
+   not just in the immediate moment
+4. **Weigh the options** — tries to keep emotion out of it, looks
+   for the most logical path
+5. **Check relationships** — considers how the decision affects
+   key people and whether alignment is needed before acting
+6. **Commit** — once decided, moves forward. Doesn't revisit
+   without new information.
 
-## How I Make Decisions
+---
 
-[Your general approach — analytical, intuitive, consultative, deliberate, fast. How you typically work through important choices.]
+## Real Decision Example — Choosing a Career Counselor (Early 2026)
 
-## What I Need Before Deciding
+**The situation:** Jared's previous EY counselor left the firm ahead
+of EOY review season — a high-stakes moment since the counselor would
+need to formally represent him for his promotion case.
 
-[The information, inputs, or conditions that make you feel ready to make a call. What you look for before committing.]
+**The decision:** Who to ask to be his new counselor from within
+the practice.
 
-## Recent Decisions
+**How he approached it:**
+- Identified and met with 4–5 potential candidates within the practice
+- Talked to peers to get outside perspective on each candidate
+- Evaluated on multiple dimensions: influence, reputation, existing
+  context of his work, and willingness to advocate strongly
 
-[2-3 real examples of significant decisions you've made. For each: what the decision was, what the options were, how you thought through it, and what you ultimately decided. These should be detailed enough that an agent can learn from the reasoning pattern.]
+**What he decided:** Chose Matt (Senior Manager) for three reasons:
+1. Most outspoken and willing to advocate — would get the job done
+2. Highly respected leader in the practice — carries weight in the room
+3. Had direct context of Jared's work from the previous engagement —
+   no ramp-up needed for the review
 
-### [Decision 1 Title]
+**The nuance he navigated:** A respected peer was already Matt's
+counselee and was also up for promotion — creating potential awkwardness.
+Jared proactively spoke with her to get her perspective and blessing
+before finalizing the decision. Relationship friction was anticipated
+and addressed head-on.
 
-[What it was, what the options were, how you thought through it, what you decided.]
+**The outcome:** Promoted to Manager. Decision validated.
 
-### [Decision 2 Title]
+**What this example shows:**
+- Prioritizes effectiveness over personal comfort
+- Does relationship work proactively rather than avoiding it
+- Gathers multiple inputs before deciding
+- Makes the pragmatic call even when it's not the emotionally easy one
 
-[What it was, what the options were, how you thought through it, what you decided.]
+---
 
-## How I Handle Uncertainty
+## Known Biases & Blind Spots
 
-[What you do when you don't have enough information but still need to decide. Your relationship with incomplete information and ambiguity.]
+### Political & Media Bias
+Leans liberal. News diet (The Daily, algorithmic feed, personal
+network) reinforces that perspective. Aware this creates a filter
+on how he interprets current events and policy. Does not align
+with the current administration. AI agents should not assume
+his political framing is neutral — and should offer balanced
+perspectives when political topics arise.
 
-## Who I Consult
+### Relationship Bias & Conflict Avoidance
+Tends to avoid confrontation, particularly with people he cares
+about. Can delay difficult conversations longer than is ideal.
+Worth flagging when a decision is being avoided because of
+relationship friction rather than genuine uncertainty.
 
-[The people you talk to before big decisions and what you look for from them. Do you want validation, challenge, information, or something else?]
+### Overthinking on High-Stakes Decisions
+Slow and analytical is a strength — but on big decisions and
+big conversations, research and preparation can tip into
+procrastination. May benefit from a forcing function or a
+deadline when stuck in analysis mode.
 
-## Current Open Decisions
+### Optimism Bias Toward People
+Genuinely sees the best in people and extends trust early.
+This is a social and leadership strength, but can lead to
+underweighting downside scenarios involving other people's
+behavior, reliability, or follow-through.
 
-[Anything you're currently working through. Optional — but useful for agents that might be helping you think through active choices.]
-```
+### Defensive About Family
+Gets protective when family is criticized or implicated.
+Worth noting as a zone where objectivity is harder to maintain.
+
+---
+
+## Notes for AI Agents Supporting Decisions
+
+- Lead with options, not a single answer — Jared wants to decide,
+  not be told what to do
+- Always include a devil's advocate and confidence rating
+  (see preferences-and-constraints.md)
+- Flag when a decision appears to be stalled due to relationship
+  avoidance or overthinking rather than genuine complexity
+- Offer the balanced view on anything politically adjacent —
+  don't mirror his framing back at him uncritically
+- Don't sugarcoat tradeoffs — he can handle the honest version

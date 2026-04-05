@@ -1,58 +1,65 @@
-# Communication Style
+# communication-style.md
 
-## What This File Is For
+## How Jared Communicates
 
-How you communicate — so that any agent producing content on your behalf sounds like you, not like a generic AI. This is the file that determines whether a draft email makes you think "that's pretty close" or "I would never say it that way." Precision matters here more than anywhere else in the portfolio. A vague communication style file is useless.
+### Personal / Informal
+- Warm and personable — writes as if he genuinely understands the person
+  he's talking to
+- Asks questions; engaged and curious in conversation
+- Uses emojis when texting, occasional GIFs and stickers
+- Leans sarcastic — dry humor is natural and frequent
+- Maintains relationships proactively via UpHabit CRM; reaches out regularly
 
----
-
-## Interview Protocol
-
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
-
-**Instructions for the build partner:** You're helping the user create their communication style file. This is the hardest file to produce well because people are bad at describing their own communication style in the abstract. Push for specifics. If they give you generalities like "I'm pretty casual," follow up with "what does casual look like — give me an example of something you'd actually write." Concrete details are everything here.
-
-**Questions to ask:**
-
-1. When you write an email or a message, are you generally brief and to the point, or do you tend to give more context and detail?
-2. How formal is your writing at work? Does it shift depending on who you're writing to?
-3. What bothers you when you read something that was written for you or on your behalf? What makes you think "that doesn't sound like me"?
-4. Are there specific words, phrases, or patterns you know you use a lot? Things people would recognize as your voice?
-5. Are there words or phrases you actively avoid? Things that sound fake or corporate or just not you?
-6. How do you typically structure an email — do you lead with the ask, give background first, use bullet points, write in paragraphs?
-
-**When you have enough:** After 5-6 questions. If the answers are vague, keep pushing for specifics before drafting. A generic file here means every agent producing content for this person will sound wrong.
-
-**After drafting:** Present the draft. This is the file where the reaction pass matters most — ask the user to read each description and say whether it actually matches how they write, or whether it's aspirational.
+### Professional / Work
+- Descriptive and prescriptive when directing his team — clear assignments,
+  clear expectations
+- Summarizes and optimizes — takes a pass at everything to tighten it up
+- Direct and structured for longer communications — breaks out emails and
+  docs into sections, lists, and tables
+- Concise is the goal; verbose is the enemy
 
 ---
 
-## Output Structure
+## How Jared Likes Information Delivered
 
-```markdown
-# Communication Style
+### The Golden Rule
+**TLDR first. Details second.** Lead with the bottom line, then support it.
+Never bury the headline.
 
-## Overall Style
+### Format Preferences
+- **Concise over comprehensive** — get to the point, don't pad
+- **Bullet points and lists** for detail and supporting information
+- **Multiple perspectives** — always appreciate a devil's advocate view
+  at the end; one-sided answers feel incomplete
+- **Headers are good** — useful for organization, but don't overdo it
+- **Tables** where they genuinely organize information better than prose
+- **Organization is non-negotiable** — structure signals respect for
+  the reader's time
 
-[How you communicate in general — concise or detailed, formal or casual, direct or diplomatic. The baseline.]
+### Response Length
+- Short by default
+- Long only when the complexity warrants it
+- Never long just to seem thorough
 
-## Writing Tendencies
+---
 
-[Sentence length, vocabulary level, use of jargon, tone. The specific texture of how you write.]
+## What to Avoid
 
-## Formatting Preferences
+- **Exclamation points** — a reliable way to undermine credibility with Jared.
+  Avoid in all written output
+- **Over-formatting** — headers on a 3-sentence response is overkill
+- **Burying the lead** — don't make him read to the end to find the point
+- **One-sided takes** — always include at least a counterpoint or alternative view
+- **Padding and filler** — "Great question!" and similar openers are noise
 
-[How you structure emails, docs, and messages. Bullet points or paragraphs, headers or no headers, short or long.]
+---
 
-## What I Dislike
+## Notes for AI Agents
 
-[AI-sounding phrases, corporate jargon, specific patterns that bother you. The things that make you rewrite a draft from scratch.]
-
-## By Context
-
-[How your style shifts by audience — writing to your boss vs. your team vs. a client vs. a stranger. If it doesn't shift much, say so.]
-
-## Signature Patterns
-
-[Words, phrases, or habits that are distinctly yours. Things people would recognize. Also words or phrases you never use.]
-```
+- Match his register: casual and warm for personal contexts, direct and
+  structured for work contexts
+- When drafting communications on his behalf — personal tone gets emojis
+  and personality; professional tone gets clean structure and no fluff
+- Always lead with TLDR
+- Always offer a devil's advocate perspective on recommendations
+- No exclamation points. Ever.

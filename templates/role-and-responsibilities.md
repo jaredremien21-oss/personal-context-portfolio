@@ -1,58 +1,74 @@
-# Role and Responsibilities
+# role-and-responsibilities.md
 
-## What This File Is For
+## Current Role
 
-This is an operational description of your work — what your weeks actually look like, what you're accountable for, what you produce. Agents use this to understand the rhythm and shape of your job so they can help with the right things at the right times. It's not a job description. It's a field guide to how you actually spend your days.
+**Title:** Manager — Technology Strategy & Architecture
+**Firm:** Ernst & Young (EY)
+**Office:** One Manhattan West, New York City
+**Team Size:** 2 direct reports (has managed up to 4)
 
----
+## What the Week Actually Looks Like
 
-## Interview Protocol
+### Current Engagement (Release Management — ServiceNow)
+Light-touch schedule right now:
+- 3 client-facing meetings/week (Mon / Wed / Fri)
+- Historically runs heavier: 2–3 meetings/day across client and internal
 
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
+### Typical Daily Activities
+- **Devising plans** for the team — weekly direction and daily task breakdowns
+- **Researching and reviewing** — EY reference material, client current-state
+  documentation, industry frameworks
+- **Consolidating findings** into POVs and deliverables for the client
+- **Reviewing and iterating** on deliverables (not producing first drafts himself
+  at this career stage)
+- **Leading client sessions** — owns the room for most external-facing meetings
+- **Internal culture work** — weekly calls focused on mentorship program setup
+  within his practice
 
-**Instructions for the build partner:** You're helping the user create their role and responsibilities file. This should capture the operational reality of their work, not the idealized version. Ask the following questions one at a time. Use what you already know from the identity file (if completed) to skip redundant questions and ask better follow-ups.
+### Physical Presence
+- In-office every Thursday; averages ~1.5x/week in-office overall
+- Remote otherwise
 
-**Questions to ask:**
+## Key Relationships
 
-1. Walk me through a typical week. What are the recurring things that happen every week without fail?
-2. What are you directly accountable for — what are the things where if they don't happen, it's on you?
-3. What decisions do you make regularly? Not the big strategic ones — the routine ones that come up every week.
-4. What do you produce? Reports, analyses, plans, code, presentations — what are the actual outputs of your work?
-5. Who do you report to? Who reports to you, if anyone?
-6. Are there monthly or quarterly rhythms that shape your work — planning cycles, reviews, board meetings, anything like that?
+### Client Side (current engagement)
+- Process Owners
+- QA Engineers
+- Project Owners
+- ITSM Leads
 
-**When you have enough:** After 4-6 questions. This file is medium length. Capture the operational reality, not every edge case.
+### Client Side (historical — major financial institutions)
+- Transformation Leads
+- Enterprise Architects
+- CIO-level leadership
 
-**After drafting:** Present the draft and ask the user to identify anything that doesn't sound right. Pay particular attention to whether the cadences and rhythms are accurate — people often forget recurring obligations until they see them missing.
+### EY Internal
+- **Direct team** — 2 reports currently; day-to-day collaboration
+- **Scott** (Senior Manager) — direct manager; primary escalation point
+- **Matt** (Senior Manager) — counselor; career representative for
+  promotions and compensation reviews
+- **Wider engagement team** — informal interaction, especially on in-office days
 
----
+## Decision Rights
 
-## Output Structure
+### Owns Independently
+- Content and framing of client-facing materials
+- Major client communications
+- His own schedule
+- Travel logistics: flights, itinerary, overall schedule
 
-```markdown
-# Role and Responsibilities
+### Delegates to Team
+- Design and structure of deliverables
+- Team members' schedules
+- Travel logistics: hotels, restaurants, leisure planning
 
-## Core Responsibilities
+### Escalates to Scott
+- Significant engagement-level decisions
+- Anything with senior client or EY leadership implications
 
-[What you're accountable for — the things that are unambiguously on you.]
-
-## Weekly Cadence
-
-[Recurring meetings, check-ins, deadlines, rituals. The skeleton of a typical week.]
-
-## Monthly / Quarterly Rhythms
-
-[Planning cycles, reviews, reporting periods, seasonal patterns. The bigger loops.]
-
-## Key Decisions
-
-[The decisions you make regularly — what comes across your desk that requires your judgment.]
-
-## What I Produce
-
-[Your outputs — deliverables, artifacts, reports, plans, code, whatever you create as part of your work.]
-
-## Reporting Structure
-
-[Who you report to, who reports to you. Keep it simple — names and roles.]
-```
+## Outside of EY (Real Time Commitments)
+- **Job search** — active, primary external priority
+- **TOGAF certification** — completed and passed (March 2026)
+- **AI learning and building** — podcasts, Claude/OpenClaw projects, agents
+- **Reading**
+- **Regular gym**

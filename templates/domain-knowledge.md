@@ -1,53 +1,156 @@
-# Domain Knowledge
+# domain-knowledge.md
 
-## What This File Is For
+## Where Jared Has Genuine Expertise
 
-What you know that a general-purpose AI doesn't. This file prevents agents from over-explaining things you already understand deeply and helps them avoid missing industry-specific context that shapes your work. It also captures areas where you're a beginner — so agents know when to explain more, not less.
-
----
-
-## Interview Protocol
-
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
-
-**Instructions for the build partner:** You're helping the user create their domain knowledge file. This is about calibrating the right level of explanation — what they know cold, what they know enough to be dangerous, and what they'd want spelled out. Use what you've learned from previous files to ask informed questions about their domain.
-
-**Questions to ask:**
-
-1. What are your areas of genuine expertise — the things you know deeply enough to teach someone?
-2. What's the jargon of your world? The terms you use every day that a general-purpose AI might over-explain or get wrong?
-3. Is there industry context that an outsider wouldn't know but that shapes everything in your work? Regulations, market dynamics, cultural norms in your field?
-4. Are there specific frameworks or mental models you use regularly to think through problems?
-5. Flip side — are there areas where you're a beginner and you'd actually want an AI to explain things more, not less?
-
-**When you have enough:** After 4-5 questions.
-
-**After drafting:** Present the draft. Ask the user if the expertise levels feel right — it's easy to overstate what you know or forget to mention an area where you'd appreciate more explanation.
+These are domains where Jared brings real depth — not just familiarity.
+AI agents should defer to his judgment here rather than over-explaining
+or contradicting without strong basis.
 
 ---
 
-## Output Structure
+### 1. IT Service Management (ITSM)
 
-```markdown
-# Domain Knowledge
+5+ years of hands-on advisory for major financial institutions. Deep
+practical knowledge across the full ITSM discipline:
 
-## Areas of Expertise
+- **Release Management** — currently leading a full policy, process,
+  procedure, and controls redesign for a large financial institution
+- **ServiceNow** — implementation advisory, operating model design,
+  automation-first future-state design, ServiceNow AI agents for
+  Change and Release processes
+- **ITIL framework** — certified, applied regularly in client engagements.
+  Primary lens for ITSM process design and maturity assessment
+- **SDLC transformation** — redesigning software delivery lifecycles
+  for large enterprises
+- **Path-to-Production governance** — designed enterprise frameworks
+  spanning 4,000+ applications across 25 technology domains
+- **COBIT 2019** — certified, applied for IT governance work
 
-[Fields, industries, disciplines you know deeply. The things where you don't need background explained — you need the AI to operate at your level.]
+**Quantified impact:**
+- Implemented automated risk-based decision matrix — cut CAB queue time by 40%
+- Overhauled major bank's ITSM practice via ServiceNow — 90% reduction in
+  costly customizations while improving data quality
+- Established Architecture Board for long-term ITSM sustainability
 
-## Key Terminology
+**What he knows that AI often gets wrong:** The gap between how ITSM
+frameworks are written and how they actually get implemented inside
+large, complex financial institutions. Politics, legacy technical debt,
+organizational resistance, and regulatory constraints shape every
+real engagement in ways textbooks don't capture.
 
-[The jargon you use without needing definitions. Industry terms, acronyms, concepts that an AI should use naturally rather than defining or avoiding.]
+---
 
-## Industry Context
+### 2. Enterprise Architecture
 
-[Things an outsider wouldn't know that shape your work — regulatory environment, market dynamics, cultural norms, historical context. The background that makes your field different from how a generalist would imagine it.]
+Formally trained and certified (TOGAF, March 2026). Practical experience
+across multiple large-scale transformation programs:
 
-## Frameworks and Mental Models
+- **TOGAF ADM** — primary methodology for architecture engagements.
+  Applies iteratively rather than rigidly
+- **Operating model design** — architected the operating model for an
+  800-person, 5-year migration program; stabilized delivery, enabled
+  automation, embedded governance at scale
+- **Architecture governance** — established Architecture Boards,
+  designed governance frameworks, built decision rights structures
+- **Technology roadmapping** — advising CTO/CIO-level stakeholders
+  on multi-year architecture strategy
+- **Cloud architecture fundamentals** — AZ-900 certified (Azure)
+- Advisory across four Fortune 500 firms for enterprise architecture
+  optimization and IT modernization
 
-[Specific frameworks or thinking tools you use regularly. How you approach problems, organize information, or make sense of complex situations.]
+**Thinking style:** Iterative. Starts with current-state understanding,
+builds to a target state, and works backwards to a transition path.
+Zooms out when things get complicated. Optimization and organization
+are natural instincts.
 
-## Where I'm a Beginner
+---
 
-[Areas where you'd want more explanation, not less. Topics where you're learning and want an AI to teach rather than assume knowledge.]
-```
+### 3. Developer Productivity & GitHub Enterprise
+
+Hands-on experience standing up GitHub Enterprise Cloud (GHEC) and
+GitHub Copilot at scale:
+
+- Core member of EY's pilot team deploying GHEC + Copilot for a Global Bank
+- Drove 18% increase in developer productivity over 6 months
+- Practical understanding of AI-assisted development tooling, adoption
+  patterns, and governance in large enterprise environments
+
+---
+
+### 4. Financial Services & Insurance (FSO) Context
+
+5+ years embedded in large FSO institutions as a trusted advisor.
+Practical knowledge of how these organizations actually operate:
+
+- Regulatory environment and its downstream impact on technology decisions
+- How large banks and insurers make (and delay) technology decisions
+- The organizational dynamics, bureaucracy, and risk aversion that
+  shape every transformation program
+- C-suite stakeholder management at major institutions
+
+**Key insight:** FSO institutions are frequently less technically
+mature than their size suggests. Experience navigating that gap
+is more valuable than knowing the frameworks.
+
+---
+
+### 5. NFL & Fantasy Football
+
+10+ years of active fantasy football experience. Solid working knowledge of:
+
+- NFL teams, rosters, schemes, and player evaluation
+- Fantasy scoring systems, draft strategy, waiver wire management
+- Historical performance patterns and statistical modeling
+  (has built models in the past)
+- Podcast-informed — stays current on news, injuries, and analysis
+
+Useful for: any agent supporting fantasy decisions, trade analysis,
+draft prep, or NFL discussion.
+
+---
+
+### 6. People & Communication
+
+Developed through years of client-facing consulting, team management,
+and personal practice:
+
+- High EQ — reads people and rooms well
+- Strong communicator across registers: executive briefings to
+  team-level direction to personal relationships
+- Natural relationship builder — maintains a broad network
+  proactively via CRM (UpHabit)
+- Experienced at managing up, across, and down in complex
+  organizational environments
+
+---
+
+## Certifications
+
+| Certification | Issuer | Date |
+|--------------|--------|------|
+| TOGAF — Enterprise Architecture Framework | The Open Group | March 2026 |
+| COBIT 2019 — IT Governance | ISACA | November 2024 |
+| AZ-900 — Microsoft Azure Fundamentals | Microsoft | 2023 |
+| ITIL — IT Infrastructure Library | AXELOS / PeopleCert | May 2021 |
+
+---
+
+## AI & Agent Development — Current Level
+
+**Honest self-assessment: Informed beginner transitioning to practitioner.**
+
+| Area | Level | Notes |
+|------|-------|-------|
+| General AI context | Developing | Strong via podcasts and research |
+| Prompt engineering | Developing | Getting stronger, active practice |
+| Agent building | Early practitioner | Several live agents shipped |
+| Claude API | Early practitioner | Opus, building personal agents |
+| OpenClaw | Early practitioner | Primary agent orchestration tool |
+| GitHub Copilot | Practitioner | Deployed at enterprise scale at EY |
+| AI architecture | Beginner | Active learning focus area |
+| Technical AI use cases | Beginner | Building toward this |
+| LLM internals / ML theory | Beginner | Not a current priority |
+
+**How to calibrate:** Don't over-explain basic AI concepts, but don't
+assume deep technical knowledge either. Meet him at the practitioner
+level — practical, applied, real-world focused. He learns fast.

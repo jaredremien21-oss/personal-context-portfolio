@@ -1,53 +1,96 @@
-# Goals and Priorities
+# goals-and-priorities.md
 
-## What This File Is For
+## What Jared Is Optimizing For (April 2026)
 
-What you're optimizing for — this quarter, this year, and longer term. Agents use this to weight decisions and recommendations appropriately. An agent that knows you're prioritizing speed over polish right now will give you different advice than one that thinks you're optimizing for quality. This file also captures what you're deliberately NOT doing, which is just as important.
-
----
-
-## Interview Protocol
-
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
-
-**Instructions for the build partner:** You're helping the user create their goals and priorities file. This is about what they're optimizing for, not their project list (that's a different file). Push for the difference between goals and projects if they start listing tasks. Use what you know from previous files to ask informed follow-ups.
-
-**Questions to ask:**
-
-1. What are you trying to accomplish in the next few months? Not your project list — your goals. What does success look like by the end of this quarter or this season?
-2. What about longer term — this year, or the next couple of years? What are you building toward?
-3. When you have to make a tradeoff — speed vs. quality, short-term vs. long-term, growth vs. stability — where do you generally land?
-4. What are you explicitly NOT prioritizing right now, even if it's important? What have you deliberately put on the back burner?
-5. If things go well over the next six months, what's different about your work or your life?
-
-**When you have enough:** After 4-5 questions.
-
-**After drafting:** Present the draft. Ask the user to check whether the tradeoff preferences feel accurate — those are the highest-leverage lines in this file because they directly affect how agents make recommendations.
+### The Core Philosophy
+Balance across all life buckets — not maximizing one at the expense of others.
+Work is one input, not the output. Intentional energy distribution across health,
+relationships, work, learning, and fun is the operating model.
 
 ---
 
-## Output Structure
+## Active Goals by Domain
 
-```markdown
-# Goals and Priorities
+### Career
+- **Land a new role** in Enterprise Architecture or AI Strategy — in-house,
+  away from external consulting. Actively job hunting via LinkedIn.
+- **Establish Technology Architect identity** — TOGAF certified (March 2026),
+  building EA and AI project portfolio, repositioning personal brand
+- **Use AI to accelerate the job search** — smarter applications, outreach,
+  and prep. Currently under-leveraged here.
 
-## Current Goals
+### AI & Learning
+- Stay current on AI — architecture, agent design patterns, use cases,
+  industry developments (primarily via podcasts)
+- Continue building and shipping personal agents (OpenClaw + Claude API)
+- Develop AI Advisory Board concept from idea to working system
+- Complete personal context portfolio (this project)
 
-[What you're trying to accomplish in the near term — this quarter or this season of work. Concrete outcomes, not aspirations.]
+### Relationships & Personal Life
+- **Move in with Laudan in September 2026** — a major life milestone;
+  planning and preparation is an active goal
+- **Maintain and grow relationships** — proactive CRM-driven outreach
+  (UpHabit), staying present with friends and family
+- **Officiate friend's wedding (fall 2026)** — requires building public
+  speaking skills and writing/delivering a ceremony
 
-## Longer-Term Goals
+### Health & Wellness
+- 10,000 steps/day — ongoing habit
+- Regular gym and cardio — maintaining consistency
+- Eating healthier — current focus area
+- Therapy — ongoing, mental health maintenance
 
-[This year or the next few years. What you're building toward. Where you want to be.]
+### Exploration & Fun
+- **Travel** — see the world; Azores trip upcoming, Patagonia W-Trek on
+  the horizon. 43/50 states, 11 countries and counting
+- **Find novelty in NYC** — new date spots, solo adventures, staying
+  curious in the city
+- Reading — Goodreads goal 30 books in 2026 (behind pace, acknowledged)
 
-## How I Think About Tradeoffs
+---
 
-[Your default positions on common tradeoffs — speed vs. quality, growth vs. stability, short-term vs. long-term, breadth vs. depth. Where you tend to land when forced to choose.]
+## Job Search Non-Negotiables
 
-## What I'm NOT Prioritizing
+Sourced from personal scoring framework (1–5 scale per category):
 
-[Things that are important but deliberately on the back burner. Things you've decided not to do right now so agents don't keep suggesting them.]
+| Category | Priority | Dealbreakers |
+|----------|----------|--------------|
+| **Location** | High | Relocation required OR commute >90 min |
+| **Compensation** | High | <$140K total comp |
+| **Lifestyle & Sustainability** | High | >60 hrs/week OR 24/7 on-call culture |
+| **Work Flexibility** | High | 4–5 days required in office |
+| **Role Scope** | Medium | PMO/delivery role disguised as architecture; consulting role |
+| **Career Growth** | Medium | No clear path beyond role; growth dependent on attrition |
+| **Culture** | Medium | Glassdoor <3.0 |
+| **Travel** | Medium | >30% travel |
+| **Company Maturity** | Low | Early-stage startup without structure |
 
-## What Success Looks Like
+### Target Compensation
+- Floor: $140K
+- At market: ~$175K (current salary reference)
+- Strong: $200K+
+- Ideal: $225K+ with bonus/equity upside
 
-[If things go well in the next six months, what's different? Paint the picture so agents understand what you're working toward.]
-```
+### Target Role Titles
+- Enterprise Architect
+- Business Architect
+- AI Strategist / AI Architect
+- Domain Architect with formal decision rights
+
+### Target Industries
+- Financial Services (deep existing experience)
+- Insurance
+- Major AI companies (aspirational)
+
+---
+
+## What Jared Is Deliberately NOT Prioritizing
+
+- **Going deep on EY work** — post-promotion, work has intentionally
+  become a lower energy priority. Doing the job well, not overinvesting.
+- **Overloading the schedule** — protecting time for health, relationships,
+  and personal projects
+- **Startup environments** — explicitly ruled out for now; needs stability
+  and structure
+- **Roles requiring relocation or heavy travel** — lifestyle and Laudan
+  relationship are protected variables

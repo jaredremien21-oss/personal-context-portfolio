@@ -1,53 +1,96 @@
-# Tools and Systems
+# tools-and-systems.md
 
-## What This File Is For
+## Devices
 
-What you use, how it's set up, and what connects to what. Agents use this to suggest workflows that fit your actual stack, avoid recommending tools you've already rejected, and understand where your data lives. If an agent is going to help you build something, it needs to know what it's building on top of.
-
----
-
-## Interview Protocol
-
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
-
-**Instructions for the build partner:** You're helping the user create their tools and systems file. This should be a practical inventory of their working environment, not an exhaustive list of every app on their phone. Focus on the tools that shape how they work day to day.
-
-**Questions to ask:**
-
-1. What tools and platforms do you use every day? Walk me through your core stack.
-2. How is your setup customized? Any specific configurations, integrations, or workflows that an agent should know about?
-3. Where does your important data live — docs, spreadsheets, databases, specific platforms?
-4. Are there tools you're currently evaluating or planning to start using?
-5. Anything you've tried and deliberately stopped using? What didn't work?
-
-**When you have enough:** After 4-5 questions. Keep it practical.
-
-**After drafting:** Present the draft. Ask the user if anything important is missing from the daily tools — people often forget to mention things they use so habitually they don't think of them as tools.
+| Device | Use |
+|--------|-----|
+| MacBook Air (personal) | Primary personal machine — all AI projects, building, personal work |
+| MacBook (EY-issued) | Work only — EY systems, client work. Strictly siloed. No Claude or LLMs permitted on EY systems |
+| iPhone 15 Pro | Mobile — primary communication, apps, agents via WhatsApp |
 
 ---
 
-## Output Structure
+## Core Personal Tools
 
-```markdown
-# Tools and Systems
+### Communication
+- **iMessage** — primary personal messaging
+- **Gmail** — personal email (jaredremien21@gmail.com)
+- **WhatsApp** — primary interface for AI agents (OpenClaw integrations)
+- **LinkedIn** — job search, professional networking
 
-## Daily Tools
+### Calendar & Planning
+- **Google Calendar** — primary calendar, shared with Laudan
+- **Apple Reminders** — ad hoc task and reminder management. Current use
+  is fine; potential for more automation
+- **Apple Notes** — daily capture and project notes. Currently ad hoc /
+  unstructured. Known pain point — notes get lost. Organization and
+  automation are a desired improvement area
 
-[The tools and platforms you use every day. For each: what it is, what you use it for, and any notable configuration.]
+### Finance
+- **Copilot** — personal budgeting
+- **Capital One** — banking
+- **Fidelity** — investments
+- **Vanguard** — investments
+- **Capital One Travel** — flight and travel booking
 
-## Data Sources
+### Health & Habits
+- **Apple Health / step tracking** — 10,000 steps/day goal
+- **Gym** — regular, no specific app noted
 
-[Where your important data lives — documents, spreadsheets, databases, cloud storage, specific platforms. What lives where.]
+### Personal CRM
+- **UpHabit** — tracking relationships and follow-ups
 
-## Integrations and Connections
+### Learning & Media
+- **Duolingo** — language learning
+- **Chess** — learning/playing
+- **Spotify** — music
+- **NYT Games** — daily games (Wordle — hard mode only)
+- **Goodreads** — reading tracker (2026 goal: 30 books)
+- **Podcasts** — primary AI learning channel
 
-[How your tools connect to each other. Automations, integrations, data flows between systems.]
+### Security
+- **Bitwarden** — password manager
+- **Authenticator apps** — 2FA
 
-## Evaluating or Planning to Adopt
+---
 
-[Tools you're looking at or planning to start using. What problem they'd solve.]
+## AI Tools
 
-## Tried and Rejected
+### Primary
+- **Claude** (Anthropic) — main AI tool for thinking, building, writing,
+  research, and this portfolio. Personal machine only
+- **OpenClaw** — agent orchestration platform. Used to build and run
+  personal agents delivered via WhatsApp
 
-[Tools you've deliberately stopped using and why. Saves agents from recommending things you've already ruled out.]
-```
+### Work (EY)
+- **GitHub Copilot** — used in EY context for developer productivity work.
+  Core member of pilot team standing up GHEC + Copilot for a Global Bank;
+  drove 18% increase in developer productivity over 6 months
+- ⚠️ No LLMs or Claude permitted on EY-issued systems
+
+---
+
+## Development Stack
+
+| Layer | Tool |
+|-------|------|
+| Code editor | VS Code |
+| AI / LLM API | Anthropic (Claude API — Opus) |
+| Hosting | Netlify (personal website) |
+| Agent platform | OpenClaw |
+| Agent delivery | WhatsApp |
+| Version control | GitHub / GitHub Enterprise Cloud |
+
+---
+
+## Known Gaps & Improvement Areas
+
+- **Apple Notes** — too unstructured; notes frequently get lost.
+  Strong candidate for an agent that organizes, surfaces, or
+  summarizes notes automatically
+- **Apple Reminders** — working fine ad hoc but open to more
+  automated reminder creation (e.g. from notes or agent triggers)
+- **Job search workflow** — currently manual (LinkedIn). Wants to
+  integrate AI more heavily into application and outreach process
+- **Recruiter outreach** — identified gap; needs more proactive effort
+- **Message Catch-Up Agent** — on hold pending security review

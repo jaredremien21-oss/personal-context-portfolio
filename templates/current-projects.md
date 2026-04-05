@@ -1,45 +1,108 @@
-# Current Projects
+# current-projects.md
 
-## What This File Is For
-
-This is the file that changes most often. It captures your active workstreams — what you're working on, where each thing stands, and what matters about each one. Agents use this to understand your current context so they can ask relevant questions, make useful suggestions, and avoid wasting your time on things that aren't active. Update this whenever projects start, finish, or shift priority.
+## Active Projects (April 2026)
 
 ---
 
-## Interview Protocol
+### 1. EY Client Engagement — Release Management Redesign
+**Status:** Active
+**Type:** Client-facing / Billable
 
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
+A policy and process redesign for a financial institution adopting ServiceNow.
+The engagement covers the full Release Management discipline from the ground up.
 
-**Instructions for the build partner:** You're helping the user create their current projects file. Start by getting the full list, then go through each project in sequence. Use what you already know from previous files to avoid redundant questions — if they mentioned projects during the role interview, reference them here.
+**Deliverables:**
+- Release Management Policy document (in progress)
+- Process and procedure documentation
+- Associated controls framework
+- Industry POVs to provide client with broader context and benchmarking
+- Likely extension: advisory on the actual ServiceNow implementation
 
-**Questions to ask:**
+**My Role:** Leading client sessions, directing a 2-person team, reviewing and
+iterating on deliverables, framing client communications
 
-1. What are you actively working on right now? List them out — project names or short descriptions, whatever comes naturally.
-2. [For each project, in sequence:] Tell me about [project]. What is it, where does it stand, and what does done look like?
-3. Who are you working with on [project]?
-4. If you had to rank these by priority right now, how would they stack up?
-5. Is anything stalled or blocked? What's the situation there?
-
-**When you have enough:** After you've covered each project the user named. Don't force a specific number — some people have three active projects, some have twelve.
-
-**After drafting:** Present the draft and ask the user to check the status and priority rankings especially. Those are the things most likely to be slightly off.
+> ⚠️ Note: Client names are never to be referenced in any context or output.
 
 ---
 
-## Output Structure
+### 2. Job Search
+**Status:** Active — high priority
+**Type:** Personal / Career
 
-```markdown
-# Current Projects
+Targeting a pivot from external consulting to an in-house industry role.
 
-[Repeat this block for each active project, ordered by priority.]
+**Target roles:**
+- Enterprise Architect
+- Business Architect
+- AI Strategy / AI Architect
 
-## [Project Name]
+**Target industries:** Open, but strong preference for FSO (Financial Services)
+given depth of experience. Open to major AI companies.
 
-**Description:** [One line — what this project is.]
-**Status:** [Early / In Progress / Wrapping Up / Stalled / On Hold]
-**My Role:** [What you specifically do on this project.]
-**Key Collaborators:** [Names and their roles on this project.]
-**What Done Looks Like:** [The concrete outcome that means this is finished.]
-**Priority:** [Relative to other projects — highest, high, medium, low.]
-**Notes:** [Anything else an agent should know — blockers, dependencies, upcoming deadlines.]
-```
+**Current approach:** Primarily applying via LinkedIn directly.
+**Gap to close:** More proactive recruiter outreach; leveraging AI more heavily
+for application and search workflow.
+
+**Recent win:** Passed TOGAF certification (March 2026) — strengthens EA
+positioning significantly.
+
+---
+
+### 3. Azores Trip Planning
+**Status:** Active — trip upcoming
+**Type:** Personal / Travel
+
+Two-phase AI-assisted trip planning project:
+- **Pre-Trip Planner Agent** (Archived) — built to design the full itinerary
+  from scratch using Claude API + OpenClaw + WhatsApp
+- **Daily Recommender Agent** (Live) — twice-daily personalized activity
+  recommendations during the trip, factoring in real-time weather and
+  itinerary pacing
+
+---
+
+### 4. Trader Joe's Recipe & Grocery Agent
+**Status:** Live
+**Type:** Personal / Automation
+
+Every Sunday, surfaces 4–5 fresh recipes built around Trader Joe's ingredients.
+Generates a structured grocery list in Apple Notes and writes out full recipes
+for meal prep. Built on Claude API (Opus) + OpenClaw + Apple Notes + WhatsApp.
+
+---
+
+### 5. Personal Website
+**Status:** Live — ongoing
+**URL:** https://jared-remien.netlify.app/
+**Type:** Personal / Professional
+
+Homepage tracking projects, background, travel, and an AI-powered "Ask Me
+Anything" agent trained on Jared's public info and built on Claude API.
+Built on Netlify. Dual purpose: personal hub and job search asset.
+
+---
+
+### 6. AI Advisory Board
+**Status:** Early concept / drafting
+**Type:** Personal / Decision-making
+
+Multi-agent advisory board designed to bring multiple perspectives to major
+decisions. Concept drafted in Claude. Structure and use cases still being defined.
+
+---
+
+### 7. Personal Context Portfolio
+**Status:** In progress (this document)
+**Type:** Personal / AI Infrastructure
+
+Structured set of markdown files to serve as portable context for any AI agent
+or tool. Based on nlwhittemore/personal-context-portfolio framework. Goal is to
+eliminate re-explaining himself from scratch to every new agent or project.
+
+---
+
+## On the Backlog
+- Message Catch-Up Agent — on hold pending security review
+- Deeper AI learning (architecture, use cases, agent design patterns)
+- Reading (Goodreads goal: 30 books in 2026)
+- Patagonia W-Trek (future travel)
